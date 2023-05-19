@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-
+  getUsername(): string {
+    const userData = JSON.parse(localStorage.getItem('user_authenticated') || '{}');
+    return userData.name || 'Invitado';
+  }
 }
