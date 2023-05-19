@@ -1,27 +1,25 @@
-# DashboardSample
+# Dashboard Sample Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.6.
+Este repositorio contiene un ejemplo de un panel de control (dashboard) desarrollado con Angular. El panel de control incluye características como inicio de sesión, validación de campos en el formulario de inicio de sesión, menú responsive y un botón para cerrar sesión.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Inicio de sesión**: El panel de control cuenta con un formulario de inicio de sesión donde los usuarios pueden ingresar su correo electrónico y contraseña para acceder al sistema. Se realizan validaciones en los campos para garantizar la integridad de los datos ingresados.
 
-## Code scaffolding
+- **Dashboard**: Una vez que los usuarios hayan iniciado sesión, serán redirigidos al dashboard principal. Aquí encontrarán una interfaz intuitiva y personalizable para visualizar y administrar la información relevante.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Cómo ejecutar el proyecto localmente
 
-## Build
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clona este repositorio en tu máquina local.
+2. Navega al directorio del proyecto.
+3. Instala las dependencias del proyecto.
+4. Inicia el servidor de desarrollo.
+5. Abre tu navegador web y visita la dirección `http://localhost:4200`.
 
-## Running unit tests
+¡Listo! Ahora deberías poder ver y utilizar el panel de control en tu entorno local.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Nota importante
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Este proyecto es solo un ejemplo educativo y no cuenta con un backend. Las funcionalidades de inicio de sesión y almacenamiento de datos se simulan en el cliente utilizando datos estáticos o almacenamiento local en el navegador.
